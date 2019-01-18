@@ -1,0 +1,72 @@
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: white !important;
+    background-color: #70D2B6 !important;
+}
+.collapse ul li a {
+    color: white !important;
+}
+.navbar-brand{
+	color:white;
+}
+.navbar-header a:hover{
+	 background-color: #70D2B6 !important;
+	 color: white !important;
+}
+nav a:visited,.navbar-nav{
+    color: white!important;
+}
+
+.navbar-reverse  {
+    border-color: transparent;
+    background-color:#589F8B;
+}
+
+body{
+	font-family:'Varela Round';
+	background:#DAD5B5;
+}
+
+.masthead
+ 	{
+ 		margin-top: -20px;
+ 		background:url(img/desk.jpg);
+ 		position:relative;
+ 		width:100%;
+ 		height:auto;
+ 		min-height:35rem;padding:15rem 0;
+ 		height:100vh;padding:0
+ 		background-position:center;background-repeat:no-repeat;background-attachment:scroll;
+ 		background-size:cover;
+        color :white;
+        font-size: 3rem;
+        
+ 	}
+ 	
+.masthead h1{font-size:4rem;line-height:5rem;letter-spacing:.5rem}
+.masthead h2{font-size:2rem}
+
+ .masthead .description
+ 	{
+        color :white;
+        font-size: 3rem;
+         
+ 	}
+
+.pp{
+	display:block;
+	margin:auto;
+	padding-top: 30px;
+}
+
+.section h2{
+	color:#589F8B;
+    padding-left: 20px;
+}
+p{
+	padding-left: 40px;
+	font-size:1.55rem;
+}
+ul{
+	padding-left: 70px;
+}
