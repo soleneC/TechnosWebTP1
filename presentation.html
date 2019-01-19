@@ -26,22 +26,18 @@
     <div class="container-fluid">
       <div class="navbar-header">
 
-        <a class="navbar-brand" href="#">Présentation</a>
+        <a class="navbar-brand" href="presentation.html">Présentation</a>
       </div>
 
 
       <div class="collapse navbar-collapse">
 
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Me contacter</a></li>
-
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Vie associative</a></li>
+          <li><a href="#me_contacter">Me contacter</a></li>
         </ul>
 
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Compétences & centres d'intérêts</a></li>
+          <li><a href="#">Compétences, Centres d'intérêts & Vie associative</a></li>
         </ul>
 
         <ul class="nav navbar-nav navbar-right">
@@ -49,7 +45,7 @@
         </ul>
 
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#" >Expérience professionnelle</a></li>
+          <li><a href="experience_pro.html" >Expérience professionnelle</a></li>
         </ul>
 
       </div>
@@ -58,13 +54,15 @@
     </div>
   </nav>
 
-  <header class="masthead">
-        <div class="d-flex align-items-center">
+  <header class="head">
+        <span class="d-flex align-items-center">
             <h1 class="my-0 text-uppercase text-center">Solène Consten</h1>
             <h2 class="description mt-2 mb-5 w-100 text-center">Etudiante en école d'ingénieur</h2>
             <img class="img-circle pp" src="img/profil.jpg" alt="pp" width="170">
             <h3 class="description mt-2 mb-5 w-100 text-center">Bienvenue sur mon site CV</h3>
-        </div>
+            <br>
+            <br>
+        </span>
   </header>
   
   <span class="section">
@@ -114,7 +112,60 @@
       </span>
 
 </span>
+<br>
+  <br>
+  <br>
+  <br>
+  <br>
 
+ <!-- Contacter -->
+    <section class="contact" id="me_contacter">
+     
+        <h2 class="text-center"> <i class="fas fa-paper-plane"></i>  Me contacter</h2>
+        <hr>
+        <span class="row">
+          <span class="col-lg-4"></span>
+          <span class="col-lg-4 mx-auto">
+            <form>
+              <span class="control-group">
+                <span class="form-group">
+                  <label>Nom</label>
+                  <input class="form-control" id="name" type="text" placeholder="Nom" required="required">
+                </span>
+              </span>
+              <br>
+
+              <span class="control-group">
+                <span class="form-group">
+                  <label>Adresse email</label>
+                  <input class="form-control" type="email" placeholder="Adresse email" required="required">
+                </span>
+              </span>
+              <br>
+
+              <span class="control-group">
+                <span class="form-group">
+                  <label>Message</label>
+                  <textarea class="form-control" rows="6" placeholder="Message" required="required"></textarea>
+                </span>
+              </span>
+              <br>
+              
+              <span class="form-group">
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+              </span>
+            </form>
+          </span>
+
+        </span>
+     
+    </section>
+
+<!-- Footer -->
+<footer class="small text-center text-white-50">
+    Copyright &copy; 2018
+</footer>
 
 
 </body>
+</html>

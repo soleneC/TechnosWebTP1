@@ -30,21 +30,21 @@ body{
 .head
  	{
  		margin-top: -20px;
- 	    background:url(img/desk.jpg);
+ 	    background:url(img/work.jpg);
  		position:relative;
  		width:100%;
  		height:auto;
  		min-height:35rem;padding:15rem 0;
- 		height:100vh;
+ 		height:70vh;
  		background-position:center;background-repeat:no-repeat;
  		background-attachment:scroll;
  		background-size:cover;
         color :white;
-        font-size: 3rem;
+        font-size: 6rem;
         
  	}
  	
-.head h1{font-size:4rem;line-height:5rem;letter-spacing:.5rem}
+.head h1{font-size:6rem;letter-spacing:.5rem; padding-top: 100px;}
 .head h2{font-size:2rem}
 
  .head .description
