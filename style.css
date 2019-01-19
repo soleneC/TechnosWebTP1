@@ -45,9 +45,9 @@ body{
  	}
  	
 .head h1{font-size:4rem;line-height:5rem;letter-spacing:.5rem}
-.head h2, .head2 h2{font-size:2rem}
+.head h2, .head2 h2, .head3 h2{font-size:2rem}
 
- .head .description, .head2 .description
+ .head .description, .head2 .description, .head3 .description
  	{
         color :white;
         font-size: 3rem;
@@ -73,8 +73,24 @@ body{
         
  	}
  	
-.head2 h1{font-size:6rem;letter-spacing:.5rem; padding-top: 100px;}
+.head2 h1, .head3 h1{font-size:6rem;letter-spacing:.5rem; padding-top: 100px;}
 
+.head3
+ 	{
+ 		margin-top: -20px;
+ 	    background:url(img/code.jpg);
+ 		position:relative;
+ 		width:100%;
+ 		height:auto;
+ 		min-height:35rem;padding:15rem 0;
+ 		height:70vh;
+ 		background-position:center;background-repeat:no-repeat;
+ 		background-attachment:scroll;
+ 		background-size:cover;
+        color :white;
+        font-size: 6rem;
+        
+ 	}
 
 .pp{
 	display:block;
