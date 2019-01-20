@@ -155,3 +155,20 @@ label{
 .titre{
 	color:#589F8B;
 }
+audio{
+	display:block;
+	margin:auto;
+	
+}
+
+.contact h2{
+	animation: bounce .5s alternate 0.1s infinite ease-in;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
